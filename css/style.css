@@ -1,0 +1,31 @@
+table#bang1,table#bang1 tr,table#bang1 td{
+    border:2px solid;
+    background: linear-gradient(to bottom, rgb(192, 242, 255), rgb(255, 192, 245));
+    padding:10px
+}
+img{
+    border-radius: 10px;
+}
+div{
+    background: linear-gradient(to bottom,rgb(192, 255, 241), rgb(255, 178, 191));
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table#bang2{
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+table#bang3,table#bang3 tr,table#bang3 td{
+    border:1px solid;
+    border-radius: 5px;
+    margin: auto;
+    background: linear-gradient(to bottom,rgb(253, 183, 226), rgb(165, 223, 233));
+}
+ul{
+    list-style-type: none;
+    font-family: 'Actor';
+    font-size: 22px;
+}
