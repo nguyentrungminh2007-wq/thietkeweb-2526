@@ -1,0 +1,32 @@
+*{
+	padding:0x;
+	margin:0x
+}
+form#dangky{
+	font-family:arial;
+	background: linear-gradient(to bottom, rgb(192, 242, 255), rgb(255, 192, 245));
+	border-radius:10px;
+	padding:100px;
+	max-width:400px;
+	margin:auto;
+}
+h2#title{
+color:blue;
+
+}
+div#minh
+{
+	color:blue;
+	margin:auto;
+}
+.minh2{
+	padding:10px;
+	max-width:20px:
+	
+}
+.container{
+	background: linear-gradient(to bottom,rgb(192, 255, 241), rgb(255, 178, 191));
+	border-radius:20px;
+	padding:20px;
+}
+	

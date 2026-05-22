@@ -1,0 +1,31 @@
+*{
+	padding:0x;
+	margin:0x
+}
+form#login{
+	font-family:arial;
+	background: linear-gradient(to bottom, rgb(192, 242, 255), rgb(255, 192, 245));
+	border-radius:10px;
+	padding:100px;
+	max-width:400px;
+	margin:auto;
+}
+h2#title{
+color:blue;
+}
+div#bell1
+{
+	color:blue;
+	margin:auto;
+}
+div#bell2
+{
+	color:blue;
+	margin:auto;
+}
+.container{
+	background: linear-gradient(to bottom,rgb(192, 255, 241), rgb(255, 178, 191));
+	border-radius:20px;
+	padding:20px;
+}
+	
