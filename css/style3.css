@@ -1,0 +1,25 @@
+td{text-align: center;width: 100px;}
+table{
+    margin:auto;
+    }
+table,td,tr{
+    border: 1px solid rgb(253, 153, 170);
+    border-collapse: collapse;
+    color: rgb(59, 83, 189);
+    }
+#stt{width: 30px;}
+    caption{
+    font-size: 30px;
+    }
+#tr1{
+    background: linear-gradient(to bottom, rgb(192, 242, 255), rgb(255, 192, 245));
+}
+#tr2{
+    background: linear-gradient(to bottom, rgb(199, 241, 252), rgb(250, 232, 247));
+}
+body{
+    background-color: rgb(248, 250, 215);
+}caption
+{
+    color: rgb(59, 83, 189);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+         <link rel="stylesheet" href="../css/style3.css">
+        <title>hóa đơn bán hàng</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<table>
+        <caption>hóa đơn bán hàng</caption>
+        <tr id="tr1">
+            <td id="stt">STT</td>
+            <td>tên hàng</td>
+            <td>số lượng</td>
+            <td>đơn giá</td>
+            <td>đơn vị tính</td>
+            <td>thành tiền</td>
+        </tr>
+        <tr id="tr2">
+            <td id="stt">1</td>
+            <td class="ten">A</td>
+            <td class="sl">2</td>
+            <td class="dg">50</td>
+            <td>thùng</td>
+            <td class="tien">?</td>
+        </tr>
+        <tr id="tr2">
+            <td id="stt">2</td>
+            <td class="ten">B</td>
+            <td class="sl">5</td>
+            <td class="dg">70</td>
+            <td>cái</td>
+            <td class="tien">?</td>
+        </tr>
+        <tr id="tr2">
+            <td id="stt">3</td>
+            <td class="ten">C</td>
+            <td class="sl">7</td>
+            <td class="dg">100</td>
+            <td>thùng</td>
+            <td class="tien">?</td>
+        </tr>
+        <tr id="tr2">
+            <td colspan="4">tổng thanh toán</td>
+            <td colspan="2" id="tongthanhtoan"> ?</td>
+        </tr>
+    </table>
+    <script>
+       const sl=document.getElementsByClassName("sl")
+       const dg=document.getElementsByClassName("dg")
+       const tien=document.getElementsByClassName("tien")
+       let tongthanhtoan=0;
+       for(let i=0;i<sl.length;i++)
+       {
+        tien[i].innerHTML=Number(sl[i].innerHTML)*Number(dg[i].innerHTML);
+        tongthanhtoan+=Number(tien[i].innerHTML);
+       }
+       document.getElementById("tongthanhtoan").innerHTML=tongthanhtoan;
+    </script>
+	</body>
+</html>

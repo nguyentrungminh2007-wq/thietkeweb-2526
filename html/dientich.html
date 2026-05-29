@@ -1,0 +1,23 @@
+    <html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>trang thông báo</title>
+</head>
+<body>
+<p id="name">Trun Min</p>
+<script>
+    let dai,rong;
+    do{
+        dai=Number(prompt("dài"))
+        rong=Number(prompt("rộng"))
+    }
+    while(dai<rong);
+    if(dai==rong){
+        alert(`=> là hình vuông có cạnh = ${dai} cm và diện tích hình vuông =${dai*rong} cm^2`)
+    }
+    if(dai>rong){
+        alert(`=> là hình chữ nhật có chiều dài = ${dai} cm, chiều rộng = ${rong} cm và diện tích hình vuông =${dai*rong} cm^2`)
+    }
+</script>
+</body>
+</html>
