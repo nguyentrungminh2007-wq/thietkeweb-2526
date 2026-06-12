@@ -6,13 +6,6 @@ function inBCC(n){
     }
     document.getElementById('result').innerHTML=result;
 }
-const product ={
-    names:"xe tank",
-    price:"1.000.000 usd",
-    description:"vật phẩm ban phát hòa bình và sự bình đẳng",
-    image:"../assets/images/xetank.jpg",
-    linkproduct:"chi-tiêt.html",
-}
 const productList =[
     {
         names:"xe tank",
@@ -51,6 +44,34 @@ item.appendChild(containerImage);
 item.appendChild(containerInfor);
 document.getElementById("productList").appendChild(item);
 }
-
+function createItemV2(obj)
+{
+    const list=document.getElementById("product-list")
+    list.innerHTML+=`
+        <div class="col">
+            <div class="card product-item">
+                <div class="product-image">
+                    <img src="${obj.image}" alt="${obj.names}" width="100%" height="120">
+                </div>
+                <div class="card-body product-infor text-center">
+                    <h4 class="card-title text-danger">${obj.names}</h4>
+                    <h5>${obj.price}</h5>
+                    <p style ="text-align:justify;line-height:1.5">${obj.description}</p>
+                    <a href="${obj.linkproduct}">chi tiết</a>
+                    </div>
+                </div>
+        </div>
+    `
+}
+w
+function vonglap(array)
+{
+    let i=0;
+    while(i<array.length)
+    { 
+       createItemV2(array[i]);
+        i++;
+    }
+}
 
 
