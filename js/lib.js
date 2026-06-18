@@ -35,7 +35,7 @@ const description =document.createElement("p");
 description.innerHTML=obj.description;
 const linkproduct=document.createElement("a");
 linkproduct.innerHTML="xetank";
-linkproduct.setAttribute("href",obj.linkprodust);
+linkproduct.setAttribute("href",obj.linkproduct);
 containerInfor.appendChild(names);
 containerInfor.appendChild(price);
 containerInfor.appendChild(description);
@@ -49,21 +49,21 @@ function createItemV2(obj)
     const list=document.getElementById("product-list")
     list.innerHTML+=`
         <div class="col">
-            <div class="card product-item">
-                <div class="product-image">
-                    <img src="${obj.image}" alt="${obj.names}" width="100%" height="120">
+            <div class="card product-item" style="border-radius:12px; overflow:hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transition: transform 0.3s;">
+                <div class="product-image" style="height:200px; overflow:hidden;">
+                    <img src="${obj.image}" alt="${obj.names}" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s;">
                 </div>
-                <div class="card-body product-infor text-center">
-                    <h4 class="card-title text-danger">${obj.names}</h4>
-                    <h5>${obj.price}</h5>
-                    <p style ="text-align:justify;line-height:1.5">${obj.description}</p>
-                    <a href="${obj.linkproduct}">chi tiết</a>
-                    </div>
+                <div class="card-body product-infor text-center" style="padding:15px; background: linear-gradient(135deg, #1a1a2e, #16213e);">
+                    <h4 class="card-title" style="color:#e94560; font-weight:bold; text-transform:uppercase; font-size:1rem;">${obj.names}</h4>
+                    <h5 style="color:#f5a623; font-weight:bold;">${obj.price}</h5>
+                    <p style="text-align:justify; line-height:1.5; color:#aaa; font-size:0.85rem;">${obj.description}</p>
+                    <a href="${obj.linkproduct}?masp=${obj.id}" style="display:inline-block; padding:8px 20px; background:#e94560; color:white; border-radius:20px; text-decoration:none; font-weight:bold; font-size:0.85rem;">Chi tiết →</a>
                 </div>
+            </div>
         </div>
     `
 }
-w
+
 function vonglap(array)
 {
     let i=0;
