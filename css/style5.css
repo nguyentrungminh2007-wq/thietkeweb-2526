@@ -1,0 +1,24 @@
+li
+{
+  background: linear-gradient(to bottom, rgb(243, 223, 111), rgb(160, 248, 138));
+	border-radius:20px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    padding-left: 0;
+    
+
+}
+div{
+    border-radius:20px;
+    background: linear-gradient(to bottom,rgb(253, 183, 226), rgb(165, 223, 233));
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: rgb(101, 70, 185);
+}
