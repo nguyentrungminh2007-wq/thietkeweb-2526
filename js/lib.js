@@ -9,11 +9,11 @@ function inBCC(n){
 const productList =[
     {
         names:"xe tank",
-    price:"1.000.000 usd",
-    description:"vật phẩm ban phát hòa bình và sự bình đẳng",
-    image:"../assets/images/xetank.jpg",
-    linkproduct:"chi-tiêt.html",
-}
+        price:"1.000.000 usd",
+        description:"vật phẩm ban phát hòa bình và sự bình đẳng",
+        image:"../assets/images/xetank.jpg",
+        linkproduct:"chi-tiêt.html",
+    }
 ]
 function createItem(obj)
 {
@@ -53,10 +53,10 @@ function createItemV2(obj)
                 <div class="product-image" style="height:200px; overflow:hidden;">
                     <img src="${obj.image}" alt="${obj.names}" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s;">
                 </div>
-                <div class="card-body product-infor text-center" style="padding:15px; background: linear-gradient(135deg, #1a1a2e, #16213e);">
+                <div class="card-body product-infor text-center" style="padding:15px; background: linear-gradient(135deg, #8d73c9, #16213e);">
                     <h4 class="card-title" style="color:#e94560; font-weight:bold; text-transform:uppercase; font-size:1rem;">${obj.names}</h4>
-                    <h5 style="color:#f5a623; font-weight:bold;">${obj.price}</h5>
-                    <p style="text-align:justify; line-height:1.5; color:#aaa; font-size:0.85rem;">${obj.description}</p>
+                    <h5 style="color:#f5a623; font-weight:bold; ">${obj.price}</h5>
+                    <p style="text-align:justify; line-height:1.5; color:#aa2; font-size:0.85rem;">${obj.description}</p>
                     <a href="${obj.linkproduct}?masp=${obj.id}" style="display:inline-block; padding:8px 20px; background:#e94560; color:white; border-radius:20px; text-decoration:none; font-weight:bold; font-size:0.85rem;">Chi tiết →</a>
                 </div>
             </div>

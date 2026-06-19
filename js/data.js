@@ -17,7 +17,7 @@ const products=[
 {
     id:"2",
     names:"máy bay tiêm kích",
-    price:"1.000.000 usd",
+    price:"500.000 usd",
     description:"vật phẩm ban phát hòa bình và sự bình đẳng",
     image:"../assets/images/maybay.jpg",
     linkproduct:"spv2.html",
@@ -25,7 +25,7 @@ const products=[
 {
     id:"3",
     names:"tầu sân bay",
-    price:"1.000.000 usd",
+    price:"5.000.000 usd",
     description:"vật phẩm ban phát hòa bình và sự bình đẳng",
     image:"../assets/images/tau.jpg",
     linkproduct:"spv2.html",
@@ -33,7 +33,7 @@ const products=[
 {
     id:"4",
     names:"bơm hạt nhân",
-    price:"1.000.000 usd",
+    price:"100.000.000 usd",
     description:"vật phẩm ban phát hòa bình và sự bình đẳng",
     image:"../assets/images/bome.jpg",
     linkproduct:"spv2.html",
